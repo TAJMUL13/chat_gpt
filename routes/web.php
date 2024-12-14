@@ -24,7 +24,6 @@ Route::get('/login', function () {
     return view('login');
 });
 Route::get('/chat', function () { 
-
     return view('chat');
 });
 // Route::get('chat', [ChatGptController::class, 'chat']);
